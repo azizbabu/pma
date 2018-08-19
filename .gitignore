@@ -1,6 +1,6 @@
 node_modules
 application/vendor
-.idea
+/.idea
 .vscode
 .vagrant
 Homestead.json
@@ -8,8 +8,8 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
-composer.phar
-composer.lock
+application/composer.phar
+application/composer.lock
 .gitignore
 .htaccess
 robots.txt
