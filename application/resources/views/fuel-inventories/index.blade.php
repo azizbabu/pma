@@ -90,11 +90,11 @@
 	<div class="card-footer">
 		<div class="row">
 			<div class="col-md-4">
-				{{ $fuelInventorys->paginationSummary }}
+				{{ $fuelInventories->paginationSummary }}
 			</div>
 			<div class="col-md-8">
 				<div class="float-right">
-					{!! $fuelInventorys->links() !!}
+					{!! $fuelInventories->links() !!}
 				</div>
 			</div>
 		</div>

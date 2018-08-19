@@ -56,7 +56,7 @@ class PlantEquipment extends Model
      */ 
     public static function getDropDownList($prepend = true)
     {
-        $plantEquipments = Self::pluck('name', 'id');
+        $plantEquipments = Self::pluck('code', 'id');
 
         if($prepend) {
             $plantEquipments->prepend('Select a plant equipment', '');
